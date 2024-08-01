@@ -1,0 +1,87 @@
+.rock {
+    color: transparent;
+    background: url(./assets/rock.svg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+}
+
+.paper {
+    color: transparent;
+    background: url(./assets/paper.svg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+}
+
+.scissor {
+    margin-top: 10px;
+    color: transparent;
+    background: url(./assets/scissor.svg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2;
+
+}
+
+#initial {
+    display : relative;
+}
+/*  . for class and # for id  */
+
+img { 
+    padding-left : 50px;
+    padding-right : 50px;
+}
+
+body {
+    background-color: rgb(220, 163, 238);
+    font-family: "Merriweather", sans-serif;
+}
+
+body h1{
+    font-family: "Merriweather", sans-serif;
+    font-size : 70px;
+    color: #7623d4; /* Replace with your desired color */
+    text-shadow: 0px 0px 15px rgba(107, 0, 247, 0.5); /* Adjust values for desired glow */
+
+
+}
+
+#init-button {
+    margin-bottom: 20px;
+    margin-left: 70%;
+}
+
+#uniqueRoomId {
+    margin-left: 70%;
+}
+
+.buttons{
+    width: fit-content;
+    display : grid;
+}
+
+#playagain {
+    margin-top: 30px;
+    margin-left : 32rem;
+}
+
+#gameArea {
+    justify-content: center;
+    text-align: center;
+}
+
+#winnerArea{
+    margin-top: 20px;
+    text-align: center;
+}
